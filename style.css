@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  background-color: white;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+header {
+  background-color: black;
+  color: white;
+  height: 230px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+img.logo {
+  height: 125px;
+}
+
+.icon-login {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: black;
+  margin-right: 20px;
+}
+
+.icon-subscribe {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: white;
+  background-color: black;
+  letter-spacing: 3px;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.fa-search,
+.icon-renew,
+.icon-menu {
+  display: none;
+  margin-right: 20px;
+}
+
+.fa-angle-double-down {
+  margin-right: 20px;
+}
+
+.subscribe-link {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+
+.subscribe-link:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.line {
+  color: yellow;
+  font-size: x-large;
+}
+
+.news-container {
+  max-width: 480px;
+}
+
+.main-news {
+  position: relative;
+  margin: 1rem;
+}
+
+.main-news h3,p {
+  line-height: 3;
+}
+
+.first-news {
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  padding: 0rem, 2rem;
+}
+
+.first-news h4 {
+  padding: 0rem, 3rem;
+  font-size: xx-large;
+}
+
+.secondary-news h4 {
+  padding: 0rem, 3rem;
+  font-size: xx-large;
+}
+
+.secondary-news {
+  margin: 1rem;
+}
+.other-news {
+  background-color: white;
+  padding: 1rem;
+}
+
+.read {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.picks-container {
+  color: white;
+}
+
+.picks-header {
+  text-transform: uppercase;
+  
+  border-left: .7em solid yellow;
+  
+}
